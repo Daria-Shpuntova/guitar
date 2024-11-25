@@ -1,0 +1,14 @@
+#sovet {
+    background-image: url("public/34.png");
+}
+
+.contantText2 h3{
+    text-align: left;
+    margin:0;
+}
+
+.contantText2 p{
+    width: 68%;
+    margin: 0;
+    margin-left: auto;
+}

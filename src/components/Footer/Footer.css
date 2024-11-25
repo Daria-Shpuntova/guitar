@@ -1,0 +1,20 @@
+footer {
+    background: #D4B599;
+    padding-inline: 150px;
+}
+
+footer p{
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: end;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+}

@@ -1,0 +1,78 @@
+.caveat {
+             font-family: "Caveat", cursive;
+             font-optical-sizing: auto;
+             font-style: normal;
+         }
+
+
+body {
+    margin: 0;
+    background: #F1EAE1;
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding-inline: 150px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.container h2{
+    font-family: "Caveat", cursive;
+    font-size: clamp(30px, 20vw, 80px);
+    text-align: center;
+}
+
+.container h3{
+    font-family: "Caveat", cursive;
+    font-size: clamp(20px, 20vw, 50px);
+    text-align: center;
+}
+
+.container p{
+    font-size: clamp(20px, 20vw, 28px);
+}
+
+.content1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
+
+.contantImg{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.contantImg img{width: 100%}
+
+.contantText{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contantText h3, .contantText p{margin: 0;}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-to-top.show {
+    opacity: 1;
+}

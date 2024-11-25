@@ -1,0 +1,21 @@
+nav {
+    position: relative;
+    z-index: 100;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #000;
+}

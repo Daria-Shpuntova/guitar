@@ -1,0 +1,23 @@
+.firstWindow {
+    background-image: url("public/35.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-inline: 150px;
+}
+
+
+.firstWindow h1{
+    font-family: CURSIVE;
+    font-size: clamp(100px, 20vw, 290px);
+    margin: 0;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.firstWindow p{
+    margin: 0;
+    font-size: 28px;
+    padding-bottom: 70px;
+    padding-top: 370px;
+}
