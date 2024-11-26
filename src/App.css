@@ -12,35 +12,33 @@ body {
 }
 
 .container{
-    padding-inline: 150px;
+    padding-inline: 10%;
     padding-top: 100px;
     padding-bottom: 150px;
 }
 
 .container h2{
     font-family: "Caveat", cursive;
-    font-size: clamp(30px, 20vw, 80px);
+    font-size: clamp(40px, 10vw, 80px);
     text-align: center;
 }
 
 .container h3{
     font-family: "Caveat", cursive;
-    font-size: clamp(20px, 20vw, 50px);
+    font-size: clamp(20px, 10vw, 50px);
     text-align: center;
 }
 
 .container p{
-    font-size: clamp(20px, 20vw, 28px);
+    font-size: clamp(20px, 2.5vw, 28px);
 }
+
 
 .content1{
     display: flex;
     justify-content: space-between;
 }
 
-.content1:nth-child(2n+1){
-    flex-direction: row-reverse;
-}
 
 .contantImg{
     width: 30%;
@@ -59,15 +57,27 @@ body {
 
 .contantText h3, .contantText p{margin: 0;}
 
+@media (min-width: 601px) {
+    .content1:nth-child(2n+1){
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 600px) {
+    .content1{flex-direction: column-reverse;}
+    .contantText{width: 100%;}
+    .contantImg{width: 100%;}
+}
+
 .scroll-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007BFF;
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
     opacity: 0;
     transition: opacity 0.3s ease;
