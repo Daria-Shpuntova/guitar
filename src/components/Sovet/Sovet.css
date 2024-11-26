@@ -12,3 +12,7 @@
     margin: 0;
     margin-left: auto;
 }
+
+@media (max-width: 600px) {
+    .contantText2 p{width: 100%;}
+}

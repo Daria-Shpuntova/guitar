@@ -5,10 +5,11 @@ nav {
 
 nav ul {
     margin: 0;
+    padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    font-size: 28px;
+    font-size: clamp(17px, 2vw, 28px);
 }
 
 nav li{
